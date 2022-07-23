@@ -1,0 +1,205 @@
+/* foofle fonts */
+
+@import url('https://fonts.googleapis.com/css2? family= Fraunces:opsz,wght@9..144,700 & family= Montserrat:wght@500;700 & display=swap');
+/* fin google fonts */
+:root{
+    
+
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --veryDarkGreen:hsl(156,42%,18%);
+}
+
+
+*{
+    margin: 0%;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 14px;
+    /* font-family: 'Fraunces', serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--Cream);
+}
+
+
+/* MOBILE */
+
+
+
+@media (min-width:330px){
+    .card{
+        margin: 2em auto;
+        background-color: var(--White);
+    
+        width: 60%;
+        height: 80%;
+        border-radius: .3em; 
+        overflow: hidden;  
+      }
+      
+      /* IMAGEN*/
+      
+     .card-sec-one-img{
+        background: url(./images/image-product-mobile.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 40vh;
+        background-position: center;
+     }
+      
+      
+      .card-sec-two-tag{
+      color: var(--Darkgrayishblue);
+      font-size: 1em;
+      letter-spacing: 3px;
+      margin: .8em 1.2em .4em 1.4em;
+      }
+      
+      .card-sec-two-title{
+          font-family: 'Fraunces', serif; 
+          margin: 0 1.1em 1.2em 1.4em;
+          font-weight: 700;
+          font-size: 2.1em;
+          color: var(--Verydarkblue);
+      }
+      
+      .card-sec-two-desciption{
+          margin: 0 1.2em 1.6em 1.2em;
+          color: var(--Darkgrayishblue);
+          font-size: 0.95em;
+          line-height: 1.2em;
+      }
+      
+      
+      .card-sec-two-prices{
+          display: flex;
+          gap: 1em;
+          align-items: center;
+          margin: 0 1.2em 1em 1.2em;
+      }
+      
+      
+      .card-sec-two-prices-price{
+          color: var(--Darkcyan);
+          font-family: 'Fraunces', serif; 
+          font-size: 2.3em;
+          
+      }
+      
+      .card-sec-two-prices-descuento{
+          text-decoration: line-through;
+          color: var(--Darkgrayishblue);
+      }
+      
+      
+      .card-sec-two-icon{
+          margin-right: .9em;
+      }
+      
+      .card-sec-two-button{
+          background-color: var(--Darkcyan);
+          color: var(--White);
+          width: 71%;
+          height: 50px;
+          font-size: 1.1em;
+          font-weight: 700;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 1.2em;
+          border-radius: .4em;
+         
+      }
+
+      
+      .card-sec-two-button:hover{
+          cursor: pointer;
+          background-color: var(--veryDarkGreen);
+      }
+      
+      
+}
+
+/* DESKTOP */
+
+@media (min-width:620px){
+    .card{
+        height: 450px;
+        width: 600px ;
+        display: flex;
+        flex-direction: row;
+        margin: 175px auto;
+    }
+
+    .card-sec-one{
+        width: 40%;
+         
+    }
+
+    .card-sec-one-img{
+        background: url(./images/image-product-desktop.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .card-sec-two{
+        width: 50%;
+    }
+
+    .card-sec-two-tag{
+        padding: 1.2em 0 0 0  ;
+    }
+    .card-sec-two-title{
+        font-size: 2.2em;
+    }
+
+    .card-sec-two-desciption{
+        font-size: 1.3em;
+    }
+    
+    .card-sec-two-button{
+        width: 100%;
+        margin-left: 1.9em;
+        
+    }
+}
+
+
+
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/*
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### 
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px/*
